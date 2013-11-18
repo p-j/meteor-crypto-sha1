@@ -1,4 +1,4 @@
-[SHA1](https://en.wikipedia.org/wiki/SHA-1) algorithm from [CryptoJS](https8://code.google.com/p/crypto-js/).
+[SHA1](https://en.wikipedia.org/wiki/SHA-1) algorithm from [CryptoJS](https://code.google.com/p/crypto-js/).
 
 Install
 -------
