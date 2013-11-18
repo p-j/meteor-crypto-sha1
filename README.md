@@ -1,4 +1,5 @@
-[SHA1](https://en.wikipedia.org/wiki/SHA-1) algorithm from [CryptoJS](https://code.google.com/p/crypto-js/).
+[SHA1](https://en.wikipedia.org/wiki/SHA-1) algorithm from [CryptoJS](https://code.google.com/p/crypto-js/), packaged for Meteor.
+Depends on [crypto-base](https://atmosphere.meteor.com/package/crypto-base).
 
 Install
 -------
@@ -34,4 +35,4 @@ CryptoJS.HmacSHA1("Message", "Secret Passphrase").toString()
 
 See also
 --------
-The CryptoJS project lives at <https://code.google.com/p/crypto-js/>
+The CryptoJS project lives at <https://code.google.com/p/crypto-js/>.
