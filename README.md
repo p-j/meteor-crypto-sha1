@@ -1,4 +1,4 @@
-SHA1 algorithm from CryptoJS, https://code.google.com/p/crypto-js/
+[SHA1](https://en.wikipedia.org/wiki/SHA-1) algorithm from [CryptoJS](https8://code.google.com/p/crypto-js/).
 
 Install
 -------
@@ -7,11 +7,16 @@ Inside your project folder run
 ```
 $ mrt add crypto-sha1
 ```
-The following methods under the `CryptoJS` namespace will now be available
+The following method under the `CryptoJS` namespace will now be available
 on **both the client and server**:
 
-* CryptoJS.SHA1(message)
-* CryptoJS.HmacSHA1(message, key)
+* `CryptoJS.SHA1(message)`
+
+If [crypto-hmac](https://atmosphere.meteor.com/package/crypto-hmac) is also
+installed, the following method will also be available:
+
+* `CryptoJS.HmacSHA1(message, key)`
+
 
 Usage
 -----
