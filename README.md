@@ -1,22 +1,24 @@
 [SHA1](https://en.wikipedia.org/wiki/SHA-1) algorithm from [CryptoJS](https://code.google.com/p/crypto-js/), packaged for Meteor.
-Depends on [crypto-base](https://atmosphere.meteor.com/package/crypto-base).
+
+Dependency
+----------
+- [jparker:meteor-crypto-base](https://github.com/p-j/meteor-crypto-base).
 
 Install
 -------
 
 Inside your project folder run
 ```
-$ mrt add crypto-sha1
+$ meteor add jparker:meteor-crypto-sha1
 ```
 The following method under the `CryptoJS` namespace will now be available
 on **both the client and server**:
 
-* `CryptoJS.SHA1(message)`
+`CryptoJS.SHA1(message)`
 
-If [crypto-hmac](https://atmosphere.meteor.com/package/crypto-hmac) is also
-installed, the following method will also be available:
+If [jparker:meteor-crypto-hmac](https://github.com/p-j/meteor-crypto-hmac) is also installed, the following method will also be available:
 
-* `CryptoJS.HmacSHA1(message, key)`
+`CryptoJS.HmacSHA1(message, key)`
 
 
 Usage
@@ -36,3 +38,11 @@ CryptoJS.HmacSHA1("Message", "Secret Passphrase").toString()
 See also
 --------
 The CryptoJS project lives at <https://code.google.com/p/crypto-js/>.
+
+Related packages
+----------------
+
+- [meteor-crypto-md5](https://github.com/p-j/meteor-crypto-md5)
+- [meteor-crypto-hmac](https://github.com/p-j/meteor-crypto-hmac)
+- [meteor-crypto-sha256](https://github.com/p-j/meteor-crypto-sha256)
+- [meteor-crypto-base64](https://github.com/p-j/meteor-crypto-base64)
