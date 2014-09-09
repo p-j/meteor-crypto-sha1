@@ -46,3 +46,4 @@ Related packages
 - [`jparker:crypto-hmac`](https://github.com/p-j/meteor-crypto-hmac)
 - [`jparker:crypto-sha256`](https://github.com/p-j/meteor-crypto-sha256)
 - [`jparker:crypto-base64`](https://github.com/p-j/meteor-crypto-base64)
+- [`jparker:crypto-aes`](https://github.com/p-j/meteor-crypto-aes)
