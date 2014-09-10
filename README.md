@@ -37,7 +37,7 @@ CryptoJS.HmacSHA1("Message", "Secret Passphrase").toString()
 
 See also
 --------
-The CryptoJS project lives at <https://code.google.com/p/crypto-js/>.
+The CryptoJS project lives at <https://code.google.com/p/crypto-js/> and the documentation for SHA-1 is at <https://code.google.com/p/crypto-js/#SHA-1>.
 
 Related packages
 ----------------
