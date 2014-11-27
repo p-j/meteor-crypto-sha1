@@ -1,5 +1,7 @@
 [SHA1](https://en.wikipedia.org/wiki/SHA-1) algorithm from [CryptoJS](https://code.google.com/p/crypto-js/), packaged for Meteor.
 
+[![Build Status](https://travis-ci.org/p-j/meteor-crypto-sha1.svg)](https://travis-ci.org/p-j/meteor-crypto-sha1)
+
 Dependency
 ----------
 - [`jparker:crypto-core`](https://github.com/p-j/meteor-crypto-core).
